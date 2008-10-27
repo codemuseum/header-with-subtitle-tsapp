@@ -1,17 +1,14 @@
-<% # stylesheets 'scaffold' %>
+<% stylesheets 'header-with-subtitle', 'header-with-subtitle-edit' -%>
 <% # javascripts 'prototype', 'effects', 'dragdrop', 'assets' %>
-
+<h1>
 <% fields_for_page_object do |f| %>
-  <p>
-    <%= f.label :urn %><br />
-    <%= f.text_field :urn %>
-  </p>
-  <p>
-    <%= f.label :title %><br />
+  <div class="title">
+    <%= f.label :title %>
     <%= f.text_field :title %>
-  </p>
-  <p>
-    <%= f.label :subtitle %><br />
+  </div>
+  <div class="sub">
+    <%= f.label :subtitle %>
     <%= f.text_field :subtitle %>
-  </p>
+  </div>
 <% end %>
+</h2>

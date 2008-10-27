@@ -1,0 +1,4 @@
+.app-header-with-subtitle h1 label {font-weight:normal; display:block; font-size:40%;}
+.app-header-with-subtitle h1 .title input {font-size:100%; width:95%;}
+.app-header-with-subtitle h1 .sub input {font-size:70%; width:95%;}
+.app-header-with-subtitle h1 .sub {margin-top:5px;}

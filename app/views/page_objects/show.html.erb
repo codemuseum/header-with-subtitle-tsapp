@@ -1,18 +1,6 @@
-<% # stylesheets 'scaffold' %>
-<% # javascripts 'prototype', 'effects', 'dragdrop', 'assets' %>
-
-<p>
-  <b>Urn:</b>
-  <%=h @page_object.urn %>
-</p>
-
-<p>
-  <b>Title:</b>
-  <%=h @page_object.title %>
-</p>
-
-<p>
-  <b>Subtitle:</b>
-  <%=h @page_object.subtitle %>
-</p>
-
+<% stylesheets 'header-with-subtitle' -%>
+<% # javascripts 'prototype', 'effects', 'dragdrop', 'assets' -%>
+<h1>
+  <div class="title"><%=h @page_object.title %></div>
+  <div class="sub"><%=h @page_object.subtitle %></div>
+</h2>
