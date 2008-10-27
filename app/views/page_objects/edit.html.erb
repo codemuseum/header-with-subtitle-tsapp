@@ -1,0 +1,17 @@
+<% # stylesheets 'scaffold' %>
+<% # javascripts 'prototype', 'effects', 'dragdrop', 'assets' %>
+
+<% fields_for_page_object do |f| %>
+  <p>
+    <%= f.label :urn %><br />
+    <%= f.text_field :urn %>
+  </p>
+  <p>
+    <%= f.label :title %><br />
+    <%= f.text_field :title %>
+  </p>
+  <p>
+    <%= f.label :subtitle %><br />
+    <%= f.text_field :subtitle %>
+  </p>
+<% end %>
