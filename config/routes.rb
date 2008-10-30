@@ -1,6 +1,7 @@
 ActionController::Routing::Routes.draw do |map|
   map.resources :page_objects, :member => { :update_valid => :put }, :collection => { :create_valid => :post, :duplicate => :post, :duplicate_valid => :post }
-
+  map.data '/data.:format', :controller => 'data', :action => 'index'
+  
   # The priority is based upon order of creation: first created -> highest priority.
 
   # Sample of regular route:
